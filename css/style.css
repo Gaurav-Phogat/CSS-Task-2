@@ -2,7 +2,6 @@
     from { 
         opacity: 0;
         transform: translate3d(0, 20px, 0);
-        transition: 0.25s all ease-in-out;
      }
     to { 
         opacity: 1;
