@@ -14,6 +14,7 @@
     animation-duration: 3s;
     animation-fill-mode: forwards;
   }
+
 *{
 	margin: 0;
 	padding: 0;
@@ -48,14 +49,6 @@ a.btn{
 	background-color: #3f51b5;
 	font-weight: 800;
 	text-align: center;
-}
-
-hr{
-	width: 150px;
-	height: 2px;
-	background-color: #3f51b5;
-	border: 0;
-	margin-bottom: 80px;
 }
 
 section{
@@ -201,6 +194,14 @@ header nav li:last-child{
 	padding: 20px 46px;
 }
 
+hr {
+    background-color:#3f51b5;
+    height: 3px;
+    width:250px;
+    margin-bottom: 50px;
+	opacity: 1;
+}
+
 @media (max-width: 800px){
 
 	.hero{
@@ -264,14 +265,14 @@ header nav li:last-child{
 }
 
 .packages .grid li{
-	padding: 0 30px;
-	flex-basis: 33%;
+	padding:  50px;
+	flex-basis: 50%;
 	text-align: center;
 }
 
 .packages .grid li i{
     font-size: 50px;
-    color: #3f51b5;
+    color: rgb(24, 158, 224);
     margin-bottom: 25px;
 }
 
@@ -425,15 +426,8 @@ footer p a{
 
 }
 
-
 @media (max-width: 1200px) {
 	#bsaHolder{ display:none;}
-}
-hr {
-    background-color: #3f51b5;
-    height: 3px;
-    width:250px;
-    margin-bottom: 50px;
 }
 
 .size {
